@@ -217,3 +217,11 @@ footer{
         padding: 2px;
     }   
 }
+
+article{
+    background-color: #181A1B;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
