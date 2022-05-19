@@ -1,0 +1,109 @@
+*{
+    margin: 0 0 0 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {width: 30%;}
+.col-2 {width: 40%;}
+.col-3 {width: 30%;}
+.col-4 {width: 100%;}
+
+[class*="col-"]{
+    float: left;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1,
+.col-3{
+    text-align: center;;
+    padding-top: 70px;
+}
+.col-2{
+    padding-top: 30px;
+    align-items: center;
+}
+
+.col-4{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#pMusic,
+#pLjubav{
+    padding-top: 100px;
+}
+
+#pMusic{
+    text-align: left;
+}
+
+#pLjubav{
+    text-align: right;
+}
+
+#Logo{
+    display: block;
+    margin: 0 auto;
+    max-width: 416px;
+    height: auto;
+}
+
+#Current{
+    font-weight: 1000;
+}
+
+nav{
+    background-color: #828B8D;
+}
+
+.Nav{
+    font-size: 60px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 750;
+}
+
+@media only screen and (max-width: 1500px) {
+    #Ljubav {
+        padding-right: 30px;
+    }
+    #Music{
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1045px) {
+    .col-2{
+        position: absolute;
+    }
+    .col-1,
+    .col-3{
+        margin-top: 230px;
+    }
+    .col-4{
+        padding-top: 20px;
+    }
+    #Ljubav {
+        padding-right:70px;
+    }
+    #Music{
+        padding-left: 70px;
+    }
+    #pMusic,
+    #pLjubav{
+    padding-top: 20px;
+    }
+    .col-1 {width: 50%;}
+    .col-2 {width: 100%;}
+    .col-3 {width: 50%;}
+    .col-4 {width: 100%;}
+}
