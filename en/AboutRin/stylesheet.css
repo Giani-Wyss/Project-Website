@@ -74,7 +74,7 @@
 }
 
 #AboutRin{
-    font-weight: black;
+    font-weight: 1000;
 }
 
 #EnFlag,
@@ -105,7 +105,7 @@ footer{
     color: #000000;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-weight: 750;
 }
 
 .Nav{
@@ -163,6 +163,9 @@ footer{
     .col-12{width: 50%;
         padding-bottom: 25px;
             background-color: #828B8D;}
+            .Footer{
+                font-weight: 500;
+            }
 }
 
 @media only screen and (max-width: 600px) {
