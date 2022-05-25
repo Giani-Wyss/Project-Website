@@ -163,9 +163,6 @@ footer{
     .col-12{width: 50%;
         padding-bottom: 25px;
             background-color: #828B8D;}
-            .Footer{
-                font-weight: 500;
-            }
 }
 
 @media only screen and (max-width: 600px) {
