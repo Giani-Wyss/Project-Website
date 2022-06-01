@@ -11,13 +11,14 @@
 .col-3 {width: 30%;}
 .col-4 {width: 100%;}
 .col-5 {width: 50%;}
-.col-6 {width: 100%;}
+.col-6 {width: 50%;}
 .col-10 {width: 33.33%;}
 .col-11 {width: 33.33%;}
 .col-12 {width: 33.33%;}
 
 [class*="col-"]{
     float: left;
+    /* border: solid red 1px; */
 }
 
 .row-1::after{
@@ -31,9 +32,11 @@
     clear: both;
     display: table;
 }
+
 .row-3{
     padding: 5px 0 5px 0;
 }
+
 .row-3::after{
     content: "";
     clear: both;
@@ -53,6 +56,10 @@
 .col-4{
     text-align: center;
     padding-bottom: 40px;
+}
+
+.col-5{
+    margin: 250px 0;
 }
 
 .col-10,
@@ -80,9 +87,15 @@
     height: auto;
 }
 
+#pQuote{
+    padding-top: 100px;
+}
+
 #IMG_Current_Rin{
-    max-width: 1000px;
+    max-width: 1335px;
     height: auto;
+    float: right;
+    mix-blend-mode: lighten;
 }
 
 #Current{
