@@ -12,6 +12,8 @@
 .col-4 {width: 100%;}
 .col-5 {width: 50%;}
 .col-6 {width: 50%;}
+.col-7 {width: 50%;}
+.col-8 {width: 50%;}
 .col-10 {width: 33.33%;}
 .col-11 {width: 33.33%;}
 .col-12 {width: 33.33%;}
@@ -60,6 +62,7 @@
 
 .col-5{
     margin: 250px 0;
+    padding-left: 40px;
 }
 
 .col-10,
