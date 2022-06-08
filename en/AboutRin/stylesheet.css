@@ -10,12 +10,18 @@
 .col-2 {width: 40%;}
 .col-3 {width: 30%;}
 .col-4 {width: 100%;}
+.col-5 {width: 80%;}
+.col-6 {width: 20%;}
+.col-7 {width: 50%;}
+.col-8 {width: 50%;}
+.col-9 {width: 50%;}
 .col-10 {width: 33.33%;}
 .col-11 {width: 33.33%;}
 .col-12 {width: 33.33%;}
 
 [class*="col-"]{
     float: left;
+    /* border: solid red 1px; */
 }
 
 .row-1::after{
@@ -24,8 +30,14 @@
     display: table;
 }
 
+.row-2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .row-3{
-    padding: 5px 0 5px 0;
+    padding: 5px 0;
 }
 .row-3::after{
     content: "";
@@ -46,6 +58,21 @@
 .col-4{
     text-align: center;
     padding-bottom: 40px;
+}
+
+.col-5{
+    padding: 30px 40px 40px 40px;
+}
+
+.col-8{
+    padding: 0 40px;
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.col-9{
+    margin-top: -330px;
+    padding-left: 40px;
 }
 
 .col-10,
@@ -70,6 +97,16 @@
     display: block;
     margin: 0 auto;
     max-width: 416px;
+    height: auto;
+}
+
+#IMG_AboutRin_1{
+    height: 547px;
+    float: right;
+}
+
+#IMG_AboutRin_2{
+    width: 950px;
     height: auto;
 }
 
@@ -114,6 +151,13 @@ footer{
 
 .Footer{
     font-size: 30px;
+}
+
+.a_AboutRin:active,
+.a_AboutRin:link,
+.a_AboutRin:visited,
+.a_AboutRin:hover{
+    color: white;
 }
 
 @media only screen and (max-width: 1500px) {
