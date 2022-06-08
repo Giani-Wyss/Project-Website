@@ -107,6 +107,7 @@
     mix-blend-mode: exclusion;
     margin-top: -100px;
     padding-left: 40px;
+    margin-bottom: -100px;
 }
 
 #Ljubav{
@@ -136,10 +137,6 @@ footer{
     background-color: #828B8D;
 }
 
-footer{
-    margin-top: -100px;
-}
-
 .Nav,
 .Footer{
     color: #000000;
@@ -156,10 +153,10 @@ footer{
     font-size: 30px;
 }
 
-.a_Current:active,
-.a_Current:link,
-.a_Current:visited,
-.a_Current:hover{
+.a_Ljubav:active,
+.a_Ljubav:link,
+.a_Ljubav:visited,
+.a_Ljubav:hover{
     color: white;
 }
 
