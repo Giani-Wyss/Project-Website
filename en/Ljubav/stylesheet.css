@@ -10,6 +10,10 @@
 .col-2 {width: 40%;}
 .col-3 {width: 30%;}
 .col-4 {width: 100%;}
+.col-5 {width: 40%;}
+.col-6 {width: 60%;}
+.col-7 {width: 50%;}
+.col-8 {width: 50%;}
 .col-10 {width: 33.33%;}
 .col-11 {width: 33.33%;}
 .col-12 {width: 33.33%;}
@@ -19,6 +23,12 @@
 }
 
 .row-1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row-2::after{
     content: "";
     clear: both;
     display: table;
@@ -48,6 +58,14 @@
     padding-bottom: 40px;
 }
 
+.col-5{
+    padding: 30px 0 0 40px;
+}
+
+.col-8{
+    padding: 40px 0 0 70px;
+}
+
 .col-10,
 .col-11{
     text-align: center;
@@ -66,11 +84,29 @@
     text-align: right;
 }
 
+#pLjubav_txt{
+    padding-top: 100px;
+}
+
 #Logo{
     display: block;
     margin: 0 auto;
     max-width: 416px;
     height: auto;
+}
+
+#IMG_Ljubav_Pose{
+    width: 1127px;
+    height: 751px;
+    float: right;
+} 
+
+#IMG_Ljubav_Logo{
+    height: 679px;
+    width: 952px;
+    mix-blend-mode: exclusion;
+    margin-top: -100px;
+    padding-left: 40px;
 }
 
 #Ljubav{
@@ -100,6 +136,10 @@ footer{
     background-color: #828B8D;
 }
 
+footer{
+    margin-top: -100px;
+}
+
 .Nav,
 .Footer{
     color: #000000;
@@ -114,6 +154,13 @@ footer{
 
 .Footer{
     font-size: 30px;
+}
+
+.a_Current:active,
+.a_Current:link,
+.a_Current:visited,
+.a_Current:hover{
+    color: white;
 }
 
 @media only screen and (max-width: 1500px) {
