@@ -102,12 +102,11 @@
 } 
 
 #IMG_Ljubav_Logo{
-    height: 679px;
     width: 952px;
+    height: auto;
     mix-blend-mode: exclusion;
-    margin-top: -100px;
     padding-left: 40px;
-    margin-bottom: -100px;
+    margin-top: 70px;
 }
 
 #Ljubav{
