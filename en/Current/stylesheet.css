@@ -14,9 +14,16 @@
 .col-6 {width: 50%;}
 .col-7 {width: 50%;}
 .col-8 {width: 50%;}
-.col-10 {width: 33.33%;}
-.col-11 {width: 33.33%;}
-.col-12 {width: 33.33%;}
+.col-9 {width: 50%;}
+.col-10 {width: 50%;}
+.col-11 {width: 50%;}
+.col-12 {width: 50%;}
+.col-13 {width: 50%;}
+.col-14 {width: 50%;}
+.col-15 {width: 50%;}
+.col-16 {width: 33.33%;}
+.col-17 {width: 33.33%;}
+.col-18 {width: 33.33%;}
 
 [class*="col-"]{
     float: left;
@@ -65,8 +72,23 @@
     padding-left: 40px;
 }
 
-.col-10,
-.col-11{
+.col-7{
+    margin: 360px 0;
+    padding-left: 40px;
+}
+
+.col-10{
+    margin-bottom: 100px;
+    padding-left: 35px;
+}
+
+.col-12{
+    margin-top: -400px;
+    padding-left: 40px;
+}
+
+.col-16,
+.col-17{
     text-align: center;
 }
 
@@ -94,12 +116,30 @@
     padding-top: 100px;
 }
 
+#pLive{
+    padding-top: 100px;
+}
+
 #IMG_Current_Rin{
-    max-width: 1335px;
+    width: 1335px;
     height: auto;
     float: right;
     mix-blend-mode: lighten;
 }
+
+#IMG_Current_KSDeluxe{
+    float: right;
+    height: 800px;
+    width: auto;
+    padding-right: 400px;
+}
+
+#IMG_Current_LivePoster{
+    float: left;
+    width: 960px;
+    height: auto;
+}
+
 
 #Current{
     font-weight: 1000;
@@ -128,6 +168,10 @@ footer{
     background-color: #828B8D;
 }
 
+footer{
+    margin-top: -11px;
+}
+
 .Nav,
 .Footer{
     color: #000000;
@@ -136,12 +180,27 @@ footer{
     font-weight: 750;
 }
 
+article{
+    background-color: #181A1B;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .Nav{
     font-size: 60px;
 }
 
 .Footer{
     font-size: 30px;
+}
+
+.a_Current:active,
+.a_Current:link,
+.a_Current:visited,
+.a_Current:hover{
+    color: white;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -181,14 +240,14 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
-    .col-11{position: absolute;
+    .col-17{position: absolute;
             left: 50%;
             transform: translate(-50%);
             width: 60%;
             margin-top: 30px;
     }
-    .col-10,
-    .col-12{width: 50%;
+    .col-16,
+    .col-18{width: 50%;
         padding-bottom: 25px;
             background-color: #828B8D;}
 }
@@ -206,11 +265,11 @@ footer{
     .col-4{
         padding-top: 10px;
     }
-    .col-10,
-    .col-12{
+    .col-16,
+    .col-18{
         padding-bottom: 40px;
     }
-    .col-11{
+    .col-17{
         margin-top: 40px;
     }
     .Nav{
@@ -246,10 +305,3 @@ footer{
     }   
 }
 
-article{
-    background-color: #181A1B;
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
