@@ -27,7 +27,7 @@
 
 [class*="col-"]{
     float: left;
-    /* border: solid red 1px; */
+    border: solid red 1px;
 }
 
 .row-1::after{

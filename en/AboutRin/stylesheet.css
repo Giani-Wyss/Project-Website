@@ -68,6 +68,10 @@
     padding: 0 40px 40px 40px;
 }
 
+.col-7{
+    padding: 40px;
+}
+
 .col-10,
 .col-11{
     text-align: center;
@@ -232,6 +236,9 @@ article{
     .col-6{
     padding: 0 30px 30px 30px;
     }
+    .col-7{
+        padding: 30px;
+    }    
     #IMG_AboutRin_1{
         height: 300px;
         width: auto;
@@ -265,6 +272,9 @@ article{
     .col-6{
         padding: 0 20px 20px 20px;
         }    
+    .col-7{
+        padding: 20px;
+    }        
     #IMG_AboutRin_1{
         height: 250px;
         width: auto;

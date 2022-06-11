@@ -10,10 +10,9 @@
 .col-2 {width: 40%;}
 .col-3 {width: 30%;}
 .col-4 {width: 100%;}
-.col-5 {width: 50%;}
-.col-6 {width: 50%;}
-.col-7 {width: 50%;}
-.col-8 {width: 50%;}
+.col-5 {width: 100%;}
+.col-6 {width: 55%;}
+.col-7 {width: 45%;}
 .col-10 {width: 33.33%;}
 .col-11 {width: 33.33%;}
 .col-12 {width: 33.33%;}
@@ -59,12 +58,13 @@
     padding-bottom: 40px;
 }
 
-.col-6{
-    padding: 40px 40px 40px 50px;
+.col-5{
+    text-align: justify;
+    padding: 20px 40px 40px 40px;
 }
 
-.col-7{
-    padding: 40px;
+.col-6{
+    padding:  113px 40px;
 }
 
 .col-10,
@@ -93,12 +93,15 @@
 }
 
 #IMG_Live_Logo{
-    width: 960px;
-    height: auto;
+    height: 370px;
+    width: auto;
+    float: left;
+    padding-right: 40px;
+    margin: -20px 0 0 -40px;
 }
 
 #IMG_Live_Ticket{
-    width: 700px;
+    width: 720px;
     height: auto;
     float: right;
 }
@@ -138,6 +141,14 @@ footer{
     font-weight: 750;
 }
 
+article{
+    background-color: #181A1B;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .Nav{
     font-size: 60px;
 }
@@ -160,6 +171,17 @@ footer{
     #Music{
         padding-left: 30px;
     }
+    #IMG_Live_Logo{
+        height: 310px;
+        width: auto;
+    }    
+    #IMG_Live_Ticket{
+        width: 500px;
+        height: auto;
+    }
+    .col-6{
+        padding: 69px 40px;
+    }
 }
 
 @media only screen and (max-width: 1045px) {
@@ -172,6 +194,9 @@ footer{
     }
     .col-4{
         padding-top: 20px;
+    }
+    .col-6{
+        padding: 56px 40px;
     }
     #Ljubav {
         padding-right:70px;
@@ -187,6 +212,39 @@ footer{
     .col-2 {width: 100%;}
     .col-3 {width: 50%;}
     .col-4 {width: 100%;}
+    article{
+        font-size: 35px;
+    }
+    #IMG_Live_Logo{
+        height: 290px;
+        width: auto;
+    }   
+    #IMG_Live_Ticket{
+        width: 400px;
+        height: auto;
+    } 
+}
+
+@media only screen and (max-width: 850px) {
+    article{
+        font-size: 30px;
+    }
+    .col-5{
+        padding: 15px 30px 30px 30px;
+    }
+    .col-6{
+        padding: 47px 30px;
+    }
+    #IMG_Live_Logo{
+        height: 290px;
+        width: auto;
+        padding-right: 20px;
+        margin: -10px 0 0 -30px;
+    }
+    #IMG_Live_Ticket{
+        width: 340px;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -200,6 +258,25 @@ footer{
     .col-12{width: 50%;
         padding-bottom: 25px;
             background-color: #828B8D;}
+    article{
+        font-size: 25px;
+    }
+    .col-5{
+        padding: 10px 20px 20px 20px;
+    }
+    .col-6{
+        padding:  43px 20px;
+    }    
+    #IMG_Live_Logo{
+        height: 170px;
+        width: auto;
+        padding-right: 20px;
+        margin: -10px 0 0 -20px;
+    }       
+    #IMG_Live_Ticket{
+        width: 300px;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -214,6 +291,9 @@ footer{
     }
     .col-4{
         padding-top: 10px;
+    }
+    .col-6{
+        padding: 13px 35px 13px 20px;
     }
     .col-10,
     .col-12{
@@ -253,12 +333,17 @@ footer{
     #DeFlag{
         padding: 2px;
     }   
+    article{
+        font-size: 20px;
+    }
+    #IMG_Live_Logo{
+        height: 115px;
+        width: auto;
+        padding-right: 15px;
+    }       
+    #IMG_Live_Ticket{
+        width: 200px;
+        height: auto;
+    }
 }
 
-article{
-    background-color: #181A1B;
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
