@@ -10,11 +10,9 @@
 .col-2 {width: 40%;}
 .col-3 {width: 30%;}
 .col-4 {width: 100%;}
-.col-5 {width: 80%;}
-.col-6 {width: 20%;}
-.col-7 {width: 50%;}
-.col-8 {width: 50%;}
-.col-9 {width: 50%;}
+.col-5 {width: 100%;}
+.col-6 {width: 100%;}
+.col-7 {width: 100%;}
 .col-10 {width: 33.33%;}
 .col-11 {width: 33.33%;}
 .col-12 {width: 33.33%;}
@@ -62,17 +60,12 @@
 
 .col-5{
     padding: 30px 40px 40px 40px;
-}
-
-.col-8{
-    padding: 0 40px;
     text-align: justify;
-    margin-top: -15px;
 }
 
-.col-9{
-    margin-top: -330px;
-    padding-left: 40px;
+.col-6{
+    text-align: justify;
+    padding: 0 40px 40px 40px;
 }
 
 .col-10,
@@ -101,13 +94,19 @@
 }
 
 #IMG_AboutRin_1{
-    height: 547px;
+    height: 560px;
+    width: auto;
     float: right;
+    margin: -30px -40px 0 0;
+    padding: 0 0 0 40px
 }
 
 #IMG_AboutRin_2{
-    width: 950px;
-    height: auto;
+    height: 590px;
+    width: auto;
+    float: left;
+    padding-right: 40px;
+    margin-left: -40px;
 }
 
 #AboutRin{
@@ -145,6 +144,14 @@ footer{
     font-weight: 750;
 }
 
+article{
+    background-color: #181A1B;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .Nav{
     font-size: 60px;
 }
@@ -167,6 +174,14 @@ footer{
     #Music{
         padding-left: 30px;
     }
+    #IMG_AboutRin_1{
+        height: 440px;
+        width: auto;
+    }
+    #IMG_AboutRin_2{
+        height: 470px;
+        width: auto;
+    }    
 }
 
 @media only screen and (max-width: 1045px) {
@@ -194,6 +209,40 @@ footer{
     .col-2 {width: 100%;}
     .col-3 {width: 50%;}
     .col-4 {width: 100%;}
+    article{
+        font-size: 35px;
+    }
+    #IMG_AboutRin_1{
+        height: 400px;
+        width: auto;
+    }    
+    #IMG_AboutRin_2{
+        height: 320px;
+        width: auto;
+    }    
+}
+
+@media only screen and (max-width: 850px) {
+    article{
+        font-size: 30px;
+    }
+    .col-5{
+        padding: 20px 30px 30px 30px;
+    }
+    .col-6{
+    padding: 0 30px 30px 30px;
+    }
+    #IMG_AboutRin_1{
+        height: 300px;
+        width: auto;
+        margin: -20px -30px 0 0;
+        padding: 0 0 0 30px
+    }
+    #IMG_AboutRin_2{
+        height: 270px;
+        width: auto;
+        padding-right: 30px;
+    }    
 }
 
 @media only screen and (max-width: 768px) {
@@ -206,7 +255,27 @@ footer{
     .col-10,
     .col-12{width: 50%;
         padding-bottom: 25px;
-            background-color: #828B8D;}
+        background-color: #828B8D;}
+    article{
+        font-size: 25x;
+    }
+    .col-5{
+        padding: 10px 20px 20px 20px;
+    }
+    .col-6{
+        padding: 0 20px 20px 20px;
+        }    
+    #IMG_AboutRin_1{
+        height: 250px;
+        width: auto;
+        margin: -10px -20px 0 0;
+        padding: 0 0 0 20px
+    }        
+    #IMG_AboutRin_2{
+        height: 200px;
+        width: auto;
+        padding-right: 20px;
+    }    
 }
 
 @media only screen and (max-width: 600px) {
@@ -259,13 +328,19 @@ footer{
     }
     #DeFlag{
         padding: 2px;
-    }   
+    } 
+    article{
+        font-size: 20px;
+    }
+    #IMG_AboutRin_1{
+        height: 245px;
+        width: auto;
+    }  
+    #IMG_AboutRin_2{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
 }
 
-article{
-    background-color: #181A1B;
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
