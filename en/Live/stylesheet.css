@@ -10,15 +10,26 @@
 .col-2 {width: 40%;}
 .col-3 {width: 30%;}
 .col-4 {width: 100%;}
+.col-5 {width: 50%;}
+.col-6 {width: 50%;}
+.col-7 {width: 50%;}
+.col-8 {width: 50%;}
 .col-10 {width: 33.33%;}
 .col-11 {width: 33.33%;}
 .col-12 {width: 33.33%;}
 
 [class*="col-"]{
     float: left;
+    /* border: solid red 1px; */
 }
 
 .row-1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row-2::after{
     content: "";
     clear: both;
     display: table;
@@ -48,6 +59,14 @@
     padding-bottom: 40px;
 }
 
+.col-6{
+    padding: 40px 40px 40px 50px;
+}
+
+.col-7{
+    padding: 40px;
+}
+
 .col-10,
 .col-11{
     text-align: center;
@@ -71,6 +90,17 @@
     margin: 0 auto;
     max-width: 416px;
     height: auto;
+}
+
+#IMG_Live_Logo{
+    width: 960px;
+    height: auto;
+}
+
+#IMG_Live_Ticket{
+    width: 700px;
+    height: auto;
+    float: right;
 }
 
 #Live{
@@ -114,6 +144,13 @@ footer{
 
 .Footer{
     font-size: 30px;
+}
+
+.a_Live:active,
+.a_Live:link,
+.a_Live:visited,
+.a_Live:hover{
+    color: white;
 }
 
 @media only screen and (max-width: 1500px) {
